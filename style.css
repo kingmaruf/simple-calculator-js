@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to left, tomato, yellowgreen);
+    
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.button{
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.textview{
+    height: 40px;
+    width: 205px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    color: black;
+    background: blueviolet;
+    border-radius: 5px;
+    
+}
+h2{
+    text-align: center;
+    margin: 50px auto;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
